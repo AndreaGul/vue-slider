@@ -22,9 +22,9 @@ all'interno del div con classe id app e,
 all'interno dell'h3 ci andiamo con la sintassi baffo baffo e vado ad inserire il nome della proprieta' che contiene il titolo
 
 3 banner con tutte le immagini
-per inserire più immagini useremo il ciclo v-for quindi per img in imgs nel src dell'immagine vado a inserire sempre con il v-bind davanti al src l'img presa dal for
+Per inserire più immagini useremo il ciclo v-for quindi per slide in slides nel src dell'immagine vado a inserire sempre con il v-bind davanti al src l'img presa dal for.
 
-3.1 l'immagine principale nel banner ha una classe active che rappresenta appunto che è la principale, per renderla dinamica anche per futuri passaggi, utilizzando v:bind e if dato dal quoziente ternario io posso inserire in una sola riga che la classe da aggiungere dipende dal fatto che se dato position = 0 se ? si mi restitusce "active" se : no mi restituisce un stringa vuota
+3.1 l'immagine principale nel banner, ha una classe active che rappresenta appunto l'immagine principale, per renderla dinamica anche per futuri passaggi, utilizzando v:bind e if dato dall'operatore ternario, posso inserire in una sola riga che: la classe da aggiungere dipende dal fatto che se dato index = 0 se ? si mi restitusce "active" se : no mi restituisce un stringa vuota
 
 4 descrizione dell'immagine mostra
 vado a definire in data tutte le proprietà che contengono i dati da inserire nella descrizione, con il markup html e la sintassi baffo baffo inserisco i dati interessati

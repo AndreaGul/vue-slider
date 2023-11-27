@@ -26,9 +26,9 @@ createApp({
           text: 'Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.',
         },
         // 3 banner con tutte le immagini
-        // per inserire più immagini useremo il ciclo v-for quindi per image in images nel src dell'immagine vado a inserire sempre con il v-bind davanti al src l'img presa dal for
+        // per inserire più immagini useremo il ciclo v-for quindi per slide in slides nel src dell'immagine vado a inserire sempre con il v-bind davanti al src l'img presa dal for
 
-        // 3.1 l'immagine principale nel banner ha una classe active che rappresenta appunto che è la principale, per renderla dinamica anche per futuri passaggi, utilizzando v:bind e if dato dal quoziente ternario io posso inserire in una sola riga che la classe da aggiungere dipende dal fatto che se dato position = 0 se ? si mi restitusce "active" se : no mi restituisce un stringa vuota
+        // 3.1 l'immagine principale nel banner, ha una classe active che rappresenta appunto l'immagine principale, per renderla dinamica anche per futuri passaggi, utilizzando v:bind e if dato dall'operatore ternario, posso inserire in una sola riga che: la classe da aggiungere dipende dal fatto che se dato index = 0 se ? si mi restitusce "active" se : no mi restituisce un stringa vuota
 
         {
           image: 'img/02.webp',
