@@ -4,20 +4,22 @@ Descrizione:
 Partendo dal markup della versione svolta in js plain, rifare lo slider ma questa volta usando Vue.
 
 lo slider è conposto il 4 parti
-dato che vue sia stato collegato correttamente
+dato che vue sia stato collegato correttamente.
 
-1 titolo della serie
+Nel data ci definiamo un array che al suo interno contiene tutte le immagini, titoli e paragrafi che andranno inserite nel dom
 
-per inserire il titolo in data ci andiamo a definire una proprietà titolo e al suo interno ci andiamo ad inserire il nome della serie
-
-all'interno del div con clsse id app
-all'interno dell'h1 ci andiamo a con la sintassi baffo baffo ci vado ad inserire il nome della proptrieta ch contiene il titolo
-
-2 immagine principale
-nel data ci definiamo un array che al suo interno contiene tutte le immagini che andranno inserite nel dom
+1 immagine principale
 
 per inserire un immagine usando il tag img
 e v-bind sull'atributo src ci andiamo a chiamare la proprieta che al suo interno ha l'immagine
+
+2 titolo e descrizione della serie
+
+per inserire il titolo in data ci andiamo a definire una proprietà title e al suo interno ci andiamo ad inserire il nome della serie
+A sua volta anche per il testo
+
+all'interno del div con classe id app e,
+all'interno dell'h3 ci andiamo con la sintassi baffo baffo e vado ad inserire il nome della proprieta' che contiene il titolo
 
 3 banner con tutte le immagini
 per inserire più immagini useremo il ciclo v-for quindi per img in imgs nel src dell'immagine vado a inserire sempre con il v-bind davanti al src l'img presa dal for
