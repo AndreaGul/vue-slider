@@ -86,6 +86,14 @@ createApp({
     // 4.2 all'interno di prev e next devo andare ad inserire una condizione per quando lindice supera o è inferiore agli elementi presenti nell'array
     // nella funzione next dovrò andar ad inserire una condizione nella quale se position è maggiore della lunghezza dell'array slides -1 allora position sarà= a 0
     // nella funzione prev se position è minore di 0 allora position sarà uguale alla lunghezza dell'array -1
+
+    //1- al click su una thumb, visualizzare in grande l'immagine corrispondente
+    // Aggiungo un event handler al div dell'img della thumbnail e gli passo come handler la funzione theChosenOne
+    // all'interno della funzione modifico il valore di position grazie all'argomento passato alla funzione, in questo caso sara' l'index del ciclo nel dom
+    theChosenOne(index) {
+      this.position = index;
+      return this.position;
+    },
   },
 }).mount('#app');
 

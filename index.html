@@ -27,6 +27,7 @@
               v-for="(slide, index) in slides"
               class="thumb"
               v-bind:class="(index === position ? 'active' : '' )"
+              v-on:click="theChosenOne(index)"
             >
               <img v-bind:src="slide.image" alt="Svezia" />
             </div>

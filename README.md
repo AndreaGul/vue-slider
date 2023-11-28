@@ -46,5 +46,8 @@ nella funzione prev se position è minore di 0 allora position sarà uguale alla
 
 Bonus:
 1- al click su una thumb, visualizzare in grande l'immagine corrispondente
+Aggiungo un event handler al div dell'img della thumbnail e gli passo come handler la funzione theChosenOne
+all'interno della funzione modifico il valore di position grazie all'argomento passato alla funzione, in questo caso sara' l'index del ciclo nel dom
+
 2- applicare l'autoplay allo slider: ogni 3 secondi, cambia immagine automaticamente
 3- quando il mouse va in hover sullo slider, bloccare l'autoplay e farlo riprendere quando esce
